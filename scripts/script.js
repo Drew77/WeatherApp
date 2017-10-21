@@ -310,7 +310,7 @@ function makeFiveDayHourlyHTML(){
         daysHtml += '<div>';
         daysHtml += '<div>' + zeroPadTime(hour[0]) + ':' + zeroPadTime(hour[1]) + '</div>';
         daysHtml += '<div>' + hour[2] + '<i class="icon wi wi-' + unit + '"></i></div>';
-        daysHtml += '<i class="icon wi ' + weatherIcons[hour[2]] + '"></i>'
+        daysHtml += '<i class="icon wi ' + weatherIcons[hour[3]] + '"></i>'
         daysHtml += '</div>'
     })
     daysHtml += '</div>';
