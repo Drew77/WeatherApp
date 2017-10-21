@@ -1,0 +1,94 @@
+
+    <!DOCTYPE html>
+
+    <html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Weather</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" type="text/css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style/style.css">
+        
+
+    </head>
+
+    <body>
+
+        <div class="content">
+
+            <div class="main-section">
+                <div class="top first">
+                    <h3></h3>
+                    <i class="icon wi"></i>
+                </div>
+                <div class="top info">
+                    <div class="searchLocation">
+                            <form class="search">
+                                <input class="loc-search" type="text" placeholder="Search Location">
+                                <input class="submitsearch" type="submit" value="Search">
+                            </form>
+                    </div>
+                </div>
+                <div class="top right">
+                    <div class="temp"> <i class="icon wi wi-celsius"></i></div>
+                    <div class="rain"></div>
+
+                </div>
+
+            </div>
+            <div class="hourly"></div>
+            <div class="bottom-section">
+                <div data-x="1" class="bottom one">
+                    <div class="daily-container">
+                    <div class="day"></div>
+                    <div class="daytemp"></div><div class="type"></div>
+                    </div>
+                </div>
+
+                <div data-x="2" class="bottom two">
+                    <div class="daily-container">
+                    <div class="day"></div>
+                    <div class="daytemp"></div><div class="type"></div>
+                    </div>
+                </div>
+
+                <div data-x="3" class="bottom three">
+                    <div class="daily-container">
+                    <div class="day"></div>
+                    <div class="daytemp"></div><div class="type"></div>
+                    </div>
+                </div>
+
+                <div data-x="4" class="bottom four">
+                    <div class="daily-container">
+                    <div class="day"></div>
+                    <div class="daytemp"></div><div class="type"></div>
+                    </div>
+                </div>
+
+                <div data-x="5" class="bottom five">
+                    <div class="daily-container">
+                    <div class="day"></div>
+                    <div class="daytemp"></div><div class="type"></div> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <script src="scripts/script.js"></script>
+
+    </body>
+
+    </html>
