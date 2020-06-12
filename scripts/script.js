@@ -49,14 +49,6 @@ function getWeather(url) {
     fivedays = make5day();
     displayFive();
     make24hour();
-
-    $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + data.latitude+ "," + data.longitude + "&sensor=true", function(location) {
-      console.log(location);
-      var searchLoc = $('.loc-search').val();
-      if (searchLoc ==  ""){
-        $('.loc-search').val(location.results[4].formatted_address);
-      }
-  })
   })
 }
 
